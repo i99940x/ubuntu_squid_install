@@ -7,7 +7,7 @@ sudo apt update -y
 sudo apt install -y squid
 
 # Download Squid configuration file
-sudo wget -O /etc/squid/squid.conf 'https://raw.githubusercontent.com/i99940x/ubuntu_squid_install/main/squid.con'
+sudo wget -O /etc/squid/squid.conf 'https://raw.githubusercontent.com/i99940x/ubuntu_squid_install/main/squid.conf'
 
 # Install UFW
 sudo apt install -y ufw
